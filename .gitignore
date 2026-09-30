@@ -1,0 +1,45 @@
+# Local environments and secrets
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Python generated files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+*.egg-info/
+
+# JavaScript generated files
+node_modules/
+.next/
+out/
+dist/
+coverage/
+
+# Medical data, model artifacts and local reports
+data/
+datasets/
+checkpoints/
+weights/
+runs/
+reports/
+*.dcm
+*.DCM
+*.dicom
+*.DICOM
+*.nii
+*.nii.gz
+*.pt
+*.pth
+*.onnx
+
+# Local editor/OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.log

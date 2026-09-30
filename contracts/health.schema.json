@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Breast AI health response",
+  "type": "object",
+  "required": ["schemaVersion", "service", "status", "modelStatus"],
+  "additionalProperties": false,
+  "properties": {
+    "schemaVersion": { "const": "0.1" },
+    "service": { "const": "breast-ai-api" },
+    "status": { "const": "ok" },
+    "modelStatus": { "const": "not_loaded" }
+  }
+}

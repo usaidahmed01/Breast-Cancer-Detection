@@ -1,2 +1,5 @@
-# Step 01 uses only Python's standard library.
-# Versioned dependencies will be added as their implementation steps need them.
+# Step 02: local API foundation. AI libraries are added in later steps.
+-c requirements.lock.txt
+fastapi==0.142.2
+uvicorn==0.54.0
+pydantic==2.13.5
